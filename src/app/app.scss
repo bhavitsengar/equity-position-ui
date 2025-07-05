@@ -1,0 +1,45 @@
+
+.form-card {
+  margin: 20px;
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+mat-form-field {
+  flex: 1 1 200px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+mat-card {
+  margin: 20px;
+}
+
+.error-banner {
+  background-color: #f44336;
+  color: white;
+  margin: 20px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.error-banner .message {
+  flex: 1;
+}
+
+.close-btn {
+  color: white;
+}
